@@ -10,4 +10,7 @@ class App < Sinatra::Base
     "Hi I'm the about the about page"
   end
 
+  get '/contact' do
+    "<h1>I'm the contact page</h1>"
+  end
 end
